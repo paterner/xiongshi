@@ -1,0 +1,35 @@
+article,aside,details,figcaption,figure,footer,header,menu,hgroup,nav,section,a{display:block}
+html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,label,textarea,p,blockquote,th,td,hr,button,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section,span{margin:0;padding:0}
+html{font-size:100%;overflow-y:scroll;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}
+a,img,button,input,textarea{-webkit-tap-highlight-color:rgba(255,255,255,0);}
+fieldset,img{border:0}
+table{border-collapse:collapse;border-spacing:0}
+h1,h2,h3,h4,h5,h6,p,input,button,select{font-weight:normal}
+address,caption,cite,code,dfn,em,th,var{font-style:normal;font-weight:normal}
+body{color:#444;font:1em/1.3 Arial "微软雅黑";background-color:#fff}
+ol,ul{list-style:none;}
+a{text-decoration:none;color:#004b91}
+input:focus{border:0;outline:medium}
+.clearfix:after {clear:both;font-size:0;height:0;display:block;visibility:hidden;content:'';line-height:0}
+.hide{display:none}
+.op-lt{float:left}
+.op-rt{float:right}
+.op-hide{display:none}
+.fl{float: left;}
+.fr{float: right;}
+.pr{position: relative;}
+.f10{font-size: 0.625rem}
+.f11{font-size: 0.6875rem}
+.f12{font-size: 0.75rem}
+.f14{font-size: 0.875rem}
+.f16{font-size: 1rem}
+.c_999{color: #999}
+.c_444{color: #444}
+.mt10{margin-top: 0.625rem}
+.mt110{margin-top: 6.875rem}
+.mt64{margin-top: 4rem}
+.mr10{margin-right: 0.625rem}
+.mt32{margin-top: 2rem;}
+.m10{margin: 0.625rem;}
+.p15{padding: 0.9375rem}
+.tc{text-align: center;}
