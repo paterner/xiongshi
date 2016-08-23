@@ -54,16 +54,40 @@ var Index = {
       }
     });
     //介绍轮播
-    var introSwitch = pageSwitch('introSwitch', {
-      duration: 600,
-      direction: 0,
-      start: 0,
-      loop: true,
-      ease: 'ease',
-      transition: 'scroll',
-      mouse: true,
-      autoplay: true,
-      interval: 3000
+    $('.intro1').on('click', function() {
+      $('#introSwitch1').animate({left: '0px'});
+      $('#introSwitch2').animate({left: '60px'});
+      $('#introSwitch3').animate({left: '120px'});
+      $('#introSwitch4').animate({left: '180px'});
+      $('#introSwitch5').animate({left: '240px'});
+    });
+    $('.intro2').on('click', function() {
+      $('#introSwitch1').animate({left: '-536px'});
+      $('#introSwitch2').animate({left: '60px'});
+      $('#introSwitch3').animate({left: '120px'});
+      $('#introSwitch4').animate({left: '180px'});
+      $('#introSwitch5').animate({left: '240px'});
+    });
+    $('.intro3').on('click', function() {
+      $('#introSwitch1').animate({left: '-536px'});
+      $('#introSwitch2').animate({left: '-477px'});
+      $('#introSwitch3').animate({left: '120px'});
+      $('#introSwitch4').animate({left: '180px'});
+      $('#introSwitch5').animate({left: '240px'});
+    });
+    $('.intro4').on('click', function() {
+      $('#introSwitch1').animate({left: '-536px'});
+      $('#introSwitch2').animate({left: '-477px'});
+      $('#introSwitch3').animate({left: '-417px'});
+      $('#introSwitch4').animate({left: '180px'});
+      $('#introSwitch5').animate({left: '240px'});
+    });
+    $('.intro5').on('click', function() {
+      $('#introSwitch1').animate({left: '-536px'});
+      $('#introSwitch2').animate({left: '-477px'});
+      $('#introSwitch3').animate({left: '-417px'});
+      $('#introSwitch4').animate({left: '-357px'});
+      $('#introSwitch5').animate({left: '240px'});
     });
   }
 }
