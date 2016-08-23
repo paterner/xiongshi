@@ -1,6 +1,7 @@
 .index {
 	background: url(../images/index_top.jpg) center top #1e1511 no-repeat;
 	font-family: 'microsoft yahei';
+	overflow: hidden;
 }
 .wrapper {
 	width: 1200px;
@@ -137,6 +138,7 @@
 	height: 15px;
 	background-color: #373737;
 	margin-right: 6px;
+	cursor: pointer;
 }
 .switch-num li.current {
 	background-color: #d93533;

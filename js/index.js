@@ -53,6 +53,10 @@ var Index = {
         $('#tankSwitchNum li').eq(index).addClass('current');
       }
     });
+    $('#tankSwitchNum li').on('click', function() {
+      var index = $(this).index();
+      tankSwitch.slide(index);
+    });
     //介绍轮播
     $('.intro1').on('click', function() {
       $('#introSwitch1').animate({left: '0px'});
