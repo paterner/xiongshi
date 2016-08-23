@@ -1,0 +1,66 @@
+div, p, dl, dd, h1, h2, h3, h4, h5, h6, a, b, u, em, input, textarea, button, select, form, section, label, span, td, li, nav, footer, body, ul, i { -webkit-box-sizing: border-box; -webkit-tap-highlight-color: rgba(0,0,0,0); padding: 0; margin: 0; }
+ul, li, ol { list-style: none; }
+a, img, button{-webkit-touch-callout:none; -webkit-user-select:none;}
+a:focus, a:active, a:hover, input, button, textarea { outline: none; }
+table { border-collapse: collapse; }
+body, td, input, textarea, option, select, button {font-family:"Roboto",helvetica,arial,"Microsoft YaHei","Heiti SC"; -webkit-text-size-adjust: none; }
+html{width:100%; height:100%;}
+body{width:100%; min-height:100%; font-size:0.875em}
+em, i{font-style:normal;}
+p{-webkit-text-size-adjust: none !important;}
+body{background:#fff; height: 100%;}
+a{text-decoration:none;}
+img{display:block;}
+.bold { font-weight: 600!important; }
+.mt5{ margin-top: 5px; }
+.mt10{ margin-top: 10px; }
+.clearfix{zoom:1;}
+.clearfix:after{height:0; visibility:hidden; content:"\0020"; display:block; clear:both;}
+
+#wrapper { max-width: 640px; margin: 0 auto; }
+.page { width: 100%; height: 100%;  position: relative; background-repeat: no-repeat;  background-size: 100% 100%; -webkit-background-size: 100% 100%; }
+#page1 { background-image: url(../images/h5_index_bg1.jpg); }
+#page2 { background-image: url(../images/h5_index_bg2.jpg); }
+.page1-header { width: 100%; height: 26px; background: url(../images/h5_index_nav.jpg) repeat; background-size: 100% 26px; -webkit-background-size: 100% 26px; position: relative; }
+.header-nav { width: 204px; height: 26px; position: absolute; right: 18px; top: 0; background: url(../images/h5_index_nav_title.jpg) no-repeat; background-size: 204px 26px; -webkit-background-size: 204px 26px; }
+.header-logo { width: 77px; height: 26px; position: absolute; left: 8px; top: 0; }
+.header-nav li { width: 20%; height: 26px; float: left; }
+.header-nav li a { display: block; width: 100%; height: 26px; }
+.page1-intro { width: 100%; position: absolute; top: 70px; left: 0; }
+.page1-download-content { width: 310px; height: 144px; background: url(../images/h5_index_down.png) no-repeat; background-size: 310px 144px; -webkit-background-size: 310px 144px; position: absolute; right: 0; bottom: 20px; }
+.page1-download-content .download-android, .page1-download-content .download-ios { position: absolute; display: block; width: 182px; height: 47px; bottom: 64px; right: 15px; }
+.page1-download-content .download-ios { bottom: 10px; }
+.page1-play-btn { position: absolute; width: 80px; height: 80px; left: 50%; margin-left: -40px; top: 50%; margin-top: -40px; background: url(../images/h5_index_play_btn.png) no-repeat; background-size: 80px 80px; -webkit-background-size: 80px 80px; }
+.next-arrow { position: absolute; width: 38px; height: 24px; left: 50%; margin-left: -19px; bottom: 2px; background: url(../images/h5_index_arrow.png) no-repeat; background-size: 38px 24px; -webkit-background-size: 38px 24px; }
+.page1-voice { display: block; position: absolute; top: 35px; right: 10px; width: 32px; height: 32px; background-image: url(../images/h5_voice_open.png);background-repeat: no-repeat; background-size: 32px 32px; -webkit-background-size: 32px 32px; }
+.page1-voice.close { background-image: url(../images/h5_voice_close.png); }
+.page-box .page-box-title { margin-left: 12px; height: 43px; background-image: url(../images/h5_index_boxtitle1.png); background-repeat: no-repeat; background-size: 100% 43px; -webkit-background-size: 100% 43px; }
+.page-box .page-box-title.title2 { background-image: url(../images/h5_index_boxtitle2.png); }
+.page-box.box1 { padding-top: 4px; }
+.content-tank { margin: 20px auto 0; width: 295px; height: 165px;}
+.content-tank .tank-img { width: 295px; height: 146px; overflow: hidden; position: relative; }
+.content-tank .tank-img img { width: 295px; height: 146px; }
+.content-tank .tank-nav { width: 295px; height: 19px; background: url(../images/tank_btn_bg.png) no-repeat; background-size: 100% 19px; -webkit-background-size: 100% 19px; }
+.tank-nav span { position: relative; display: block; float: left; height: 19px; line-height: 19px; text-align: center; color: #a38273; font-size: 11px; cursor: pointer; }
+.tank-nav span:nth-child(1), .tank-nav span:nth-child(5) { width: 23.32%; }
+.tank-nav span:nth-child(2), .tank-nav span:nth-child(3), .tank-nav span:nth-child(4) { width: 17.49%; }
+.tank-nav span.current { color: #fff; background: url(../images/tank_btn_hover.png) 0 -9px repeat; }
+.tank-nav span.current:after { content: ''; position: absolute; display: block; width: 9px; height: 5px; left: 50%; margin-left: -5px; top: -5px; background: url(../images/tank_btn_hover.png) 0 0 no-repeat; background-size: 9px 26px; -webkit-background-size: 9px 26px; }
+.page-box.box2 { padding-top: 50px; }
+.content-intro { width: 295px; height: 147px; margin: 30px auto 0; }
+.content-intro .intro-switch { width: 295px; height: 147px; position: relative; overflow: hidden; }
+.content-intro .intro-switch li { width: 208px; height: 147px; background: url(../images/h5_index_intro_bg.jpg) no-repeat; padding: 5px; background-size: 100% 100%; -webkit-background-size: 100% 100%; position: absolute; left: 0; z-index: 5; }
+.content-intro .intro-switch li:nth-child(2) { left: 20px; z-index: 4; }
+.content-intro .intro-switch li:nth-child(3) { left: 40px; z-index: 3; }
+.content-intro .intro-switch li:nth-child(4) { left: 60px; z-index: 2; }
+.content-intro .intro-switch li:nth-child(5) { left: 80px; z-index: 1; }
+.content-intro .intro-switch li img { border: 2px solid #583a2a; width: 175px; height: 130px; }
+.content-intro .intro { position: absolute; width: 14px; height: 135px; right: 5px; top: 5px; color: #fce4d9; font-size: 14px;}
+.content-intro .intro1 { background: url(../images/h5_index_intro_t1.png) no-repeat; background-size: 14px 135px; -webkit-background-size: 14px 135px; }
+.content-intro .intro2 { background: url(../images/h5_index_intro_t2.png) no-repeat; background-size: 14px 135px; -webkit-background-size: 14px 135px; }
+.content-intro .intro3 { background: url(../images/h5_index_intro_t3.png) no-repeat; background-size: 14px 135px; -webkit-background-size: 14px 135px; }
+.content-intro .intro4 { background: url(../images/h5_index_intro_t4.png) no-repeat; background-size: 14px 135px; -webkit-background-size: 14px 135px; }
+.content-intro .intro5 { background: url(../images/h5_index_intro_t5.png) no-repeat; background-size: 14px 135px; -webkit-background-size: 14px 135px; }
+
+
+
