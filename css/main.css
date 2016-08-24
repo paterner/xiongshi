@@ -539,6 +539,9 @@
 	background: url(../images/news_bg.jpg) center top #1e1511 no-repeat;
 	font-family: 'microsoft yahei';
 }
+.news.tips {
+	background: url(../images/tips_bg.jpg) center top #1e1511 no-repeat;
+}
 .wrapper.news-wrapper {
 	padding-top: 700px;
 }
@@ -778,4 +781,35 @@
 .news-content-third p {
 	font-size: 16px;
 	color: #b38c75;
+}
+.wrapper.tips-wrapper {
+	padding-top: 584px;
+}
+.left-section {
+	width: 450px;
+	position: absolute;
+	top: 584px;
+	left: 67px;
+}
+.right-section {
+	margin-left: 523px;
+	height: 1150px;
+	overflow: hidden;
+	position: relative;
+}
+.tips-list {
+	margin-top: 90px;
+}
+.news-content-box.tips {
+	height: 953px;
+	padding-bottom: 0;
+}
+.news-content-box.tips .news-content-list {
+	border-right: 0;
+}
+.tips-list .news-content-tab .news-tab {
+	width: 160px;
+}
+.right-section .news-nav {
+	top: 23px;
 }
