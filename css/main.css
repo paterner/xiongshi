@@ -262,20 +262,29 @@
 }
 .content-tank .tank-nav {
 	width: 680px;
-	margin-top: -3px;
+	margin-top: 2px;
 	height: 44px;
-	background: url(../images/tank_btn_bg.png) no-repeat;
+	background: #000;
 }
 .tank-nav span {
 	position: relative;
 	display: block;
 	float: left;
-	height: 44px;
-	line-height: 44px;
+	width: 104px;
+	height: 42px;
+	background: url(../images/index_i_btn.jpg) no-repeat;
+	line-height: 42px;
 	text-align: center;
 	color: #a38273;
-	font-size: 22px;
+	font-size: 18px;
 	cursor: pointer;
+	margin-right: 5px;
+}
+.tank-nav span:first-child {
+	margin-left: 15px;
+}
+.tank-nav span:last-child {
+	margin-right: 0;
 }
 .tank-nav span.current {
 	color: #fff;
@@ -292,7 +301,7 @@
 	top: -9px;
 	background: url(../images/tank_btn_hover.png) 0 0 no-repeat;
 }
-.tank-nav span:nth-child(1),
+/*.tank-nav span:nth-child(1),
 .tank-nav span:nth-child(5) {
 	width: 160px;
 }
@@ -300,7 +309,7 @@
 .tank-nav span:nth-child(3),
 .tank-nav span:nth-child(4) {
 	width: 120px;
-}
+}*/
 .content-teach {
 	position: absolute;
 	width: 484px;
@@ -770,6 +779,7 @@
   height: 15px;
   background-color: #614230;
   margin-right: 6px;
+  cursor: pointer;
 }
 .news-switch-num li.current {
 	background-color: #e4a85c;
