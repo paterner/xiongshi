@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>专题</title>
+	<link rel="stylesheet" href="./css/base.css">
+	<link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+	<div class="zhuanti">
+		<div class="head">
+			<a href="###"><img src="./img/logo.png" alt="logo"></a>
+			<a href="###"><img src="./img/head_one.png" alt="head_one"></a>
+			<a href="###"><img src="./img/head_two.png" alt="head_two"></a>
+			<a href="###"><img src="./img/head_three.png" alt="head_three"></a>
+			<a href="###"><img src="./img/head_four.png" alt="head_four"></a>
+		</div>
+		<div class="sectionOne">
+			<img src="./img/foot.png" alt="">
+			<div class="clearfix sectionImg_wrapper">
+				<img src="./img/section_one.png" alt="section_one">
+				<img src="./img/section_two.png" alt="section_two">
+				<img src="./img/section_three.png" alt="section_three">
+			</div>
+		</div>
+		<div class="sectionTwo">
+			<div class="clearfix code_wrapper">
+				<img src="./img/code.png" alt="" class="fl">
+				<div class="fl">
+					<a href="###"><img src="./img/android_down.png" alt=""></a>
+					<a href="###"><img src="./img/ios_down.png" alt=""></a>
+				</div class="fl">
+				<img src="./img/driver.png" alt="">
+			</div>
+			<div class="slide">
+				<img class="big" src="./img/slide_one.png" alt="">
+				<div class="slide_min clearfix">
+					<a href="" class="on">
+						<img src="./img/slide_min_one.png" alt="">
+					</a>
+					<a href="">
+						<img src="./img/slide_min_two.png" alt="">
+					</a>
+					<a href="">
+						<img src="./img/slide_min_three.png" alt="">
+					</a>
+					<a href="">
+						<img src="./img/slide_min_four.png" alt="">
+					</a>
+					<a href="">
+						<img src="./img/slide_min_five.png" alt="">
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="sectionThree">
+			<div class="swipe">
+				<img class="big" src="./img/swipe_one.png" alt="">
+				<div class="swipe_min">
+					<div>
+						<a href="">坦克世界手游    来玩就送好礼</a>
+					</div>
+					<div>
+						<a href="">重现坦克集群冲锋</a>
+					</div>
+					<div>
+						<a href="">深度策略玩法    自由装备搭配</a>
+					</div>
+					<div>
+						<a href="">3A级画质    震撼效果</a>
+					</div>
+					<div>
+						<a href="">丰富PVP玩法     谁与争锋</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<img src="./img/foot.png" alt="">
+			<img src="./img/more.png" alt="">
+			<img class='gotop' src="./img/gotop.png" alt="">
+		</div>
+		<div class="clearfix code_wrapper">
+			<img src="./img/code.png" alt="" class="fl">
+			<div class="fl">
+				<a href="###"><img src="./img/android_down.png" alt=""></a>
+				<a href="###"><img src="./img/ios_down.png" alt=""></a>
+			</div>
+			<img src="./img/driver.png" alt="">
+		</div>
+	</div>
+</body>
+</html>
+<script src="js/jquery-1.9.0.min.js"></script>
+<script>
+$(function(){
+	$('.slide .slide_min a').hover(function(){
+		$(this).addClass('on').siblings().removeClass('on')
+	})
+
+	$('.gotop').click(function(){
+		$(window).scrollTop(0)
+	})
+})
+	
+</script>
