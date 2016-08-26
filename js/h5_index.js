@@ -67,7 +67,7 @@ var Index = {
     setTimeout(function() {
       $('#wrapper').css('visibility', 'visible');
       _this._playAudio();
-    }, 4000);
+    }, 3000);
   },
   _playAudio: function() {
     var _this = this;

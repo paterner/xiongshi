@@ -823,3 +823,33 @@
 .right-section .news-nav {
 	top: 23px;
 }
+
+.zhuanti .head{background: url('../images/head_bg.png') no-repeat; margin: 0 auto; width: 1200px; height: 54px; line-height: 54px; padding:  0  50px  0 100px}
+.zhuanti .head a{float: left;margin-right: 68px;height: 54px}
+.zhuanti .head a:first-child{margin-right: 150px}
+
+.zhuanti .sectionImg_wrapper, .slide, .swipe{width: 1120px; margin: 0 auto;}
+
+.zhuanti .sectionImg_wrapper img{float: left; margin-right: 50px}
+.zhuanti .sectionImg_wrapper img:last-child{margin-right: 0px}
+.zhuanti .code_wrapper{width: 500px; margin: 0 auto}
+.zhuanti .code_wrapper div{margin: 0 -14px 0 -7px;}
+.zhuanti .code_wrapper div a{margin-top: -10px}
+
+.zhuanti .slide img{border: 4px solid #734937;}
+.zhuanti .slide img.big{width: 1112px; margin-bottom: 20px}
+.zhuanti .slide .slide_min{margin-right: -5px} 
+.zhuanti .slide .slide_min a{ margin-right: 5px; float: left;position: relative;}
+.zhuanti .slide .slide_min a img{width: 212px; }
+.zhuanti .slide .slide_min a.on img{border-color: #e09170; position: relative;}
+.zhuanti .slide .slide_min a.on:after{content: ''; display: block; width: 28px; height:33px; left: 50%; margin-left: -14px; top: -15px; background: url('../images/slide_on.png'); position: absolute;}
+
+.zhuanti .swipe{padding-top: 88px}
+.zhuanti .swipe .swipe_min{float: right; height: 420px}
+.zhuanti .swipe .swipe_min div{width: 55px; height: 100%; float: left;}
+.zhuanti .swipe .swipe_min div a{writing-mode: vertical-lr; color: #e09170; margin: 0 auto}
+.zhuanti .footer img{display: block; margin: 20px auto;}
+.sectionOne{ background: url('../images/zt_bg_1.png') no-repeat; background-size: 100%}
+.sectionTwo{ background: url('../images/zt_bg_2.png') no-repeat; background-size: 100%}
+.sectionThree{ background: url('../images/zt_bg_3.png') no-repeat; background-size: 100%}
+

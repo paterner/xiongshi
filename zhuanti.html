@@ -7,55 +7,54 @@
 	<link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-	<div class="zhuanti">
-		<div class="head">
-			<a href="###"><img src="./img/logo.png" alt="logo"></a>
-			<a href="###"><img src="./img/head_one.png" alt="head_one"></a>
-			<a href="###"><img src="./img/head_two.png" alt="head_two"></a>
-			<a href="###"><img src="./img/head_three.png" alt="head_three"></a>
-			<a href="###"><img src="./img/head_four.png" alt="head_four"></a>
-		</div>
-		<div class="sectionOne">
-			<img src="./img/foot.png" alt="">
+	<div id="wrapper" class="zhuanti">
+		<div class="sectionOne" id="page1">
+			<div class="head">
+				<a href="###"><img src="./images/logo.png" alt="logo"></a>
+				<a href="###"><img src="./images/head_one.png" alt="head_one"></a>
+				<a href="###"><img src="./images/head_two.png" alt="head_two"></a>
+				<a href="###"><img src="./images/head_three.png" alt="head_three"></a>
+				<a href="###"><img src="./images/head_four.png" alt="head_four"></a>
+			</div>
 			<div class="clearfix sectionImg_wrapper">
-				<img src="./img/section_one.png" alt="section_one">
-				<img src="./img/section_two.png" alt="section_two">
-				<img src="./img/section_three.png" alt="section_three">
+				<img src="./images/section_one.png" alt="section_one">
+				<img src="./images/section_two.png" alt="section_two">
+				<img src="./images/section_three.png" alt="section_three">
 			</div>
 		</div>
-		<div class="sectionTwo">
+		<div class="sectionTwo" id="page2">
 			<div class="clearfix code_wrapper">
-				<img src="./img/code.png" alt="" class="fl">
+				<img src="./images/code.png" alt="" class="fl">
 				<div class="fl">
-					<a href="###"><img src="./img/android_down.png" alt=""></a>
-					<a href="###"><img src="./img/ios_down.png" alt=""></a>
+					<a href="###"><img src="./images/android_down.png" alt=""></a>
+					<a href="###"><img src="./images/ios_down.png" alt=""></a>
 				</div class="fl">
-				<img src="./img/driver.png" alt="">
+				<img src="./images/driver.png" alt="">
 			</div>
 			<div class="slide">
-				<img class="big" src="./img/slide_one.png" alt="">
+				<img class="big" src="./images/slide_one.png" alt="">
 				<div class="slide_min clearfix">
 					<a href="" class="on">
-						<img src="./img/slide_min_one.png" alt="">
+						<img src="./images/slide_min_one.png" alt="">
 					</a>
 					<a href="">
-						<img src="./img/slide_min_two.png" alt="">
+						<img src="./images/slide_min_two.png" alt="">
 					</a>
 					<a href="">
-						<img src="./img/slide_min_three.png" alt="">
+						<img src="./images/slide_min_three.png" alt="">
 					</a>
 					<a href="">
-						<img src="./img/slide_min_four.png" alt="">
+						<img src="./images/slide_min_four.png" alt="">
 					</a>
 					<a href="">
-						<img src="./img/slide_min_five.png" alt="">
+						<img src="./images/slide_min_five.png" alt="">
 					</a>
 				</div>
 			</div>
 		</div>
-		<div class="sectionThree">
+		<div class="sectionThree" id="page3">
 			<div class="swipe">
-				<img class="big" src="./img/swipe_one.png" alt="">
+				<img class="big" src="./images/swipe_one.png" alt="">
 				<div class="swipe_min">
 					<div>
 						<a href="">坦克世界手游    来玩就送好礼</a>
@@ -74,24 +73,25 @@
 					</div>
 				</div>
 			</div>
-		</div>
-		<div class="footer">
-			<img src="./img/foot.png" alt="">
-			<img src="./img/more.png" alt="">
-			<img class='gotop' src="./img/gotop.png" alt="">
-		</div>
-		<div class="clearfix code_wrapper">
-			<img src="./img/code.png" alt="" class="fl">
-			<div class="fl">
-				<a href="###"><img src="./img/android_down.png" alt=""></a>
-				<a href="###"><img src="./img/ios_down.png" alt=""></a>
+			<div class="footer">
+			<img src="./images/foot.png" alt="">
+			<img src="./images/more.png" alt="">
+			<img class='gotop' src="./images/gotop.png" alt="">
 			</div>
-			<img src="./img/driver.png" alt="">
-		</div>
+			<div class="clearfix code_wrapper">
+				<img src="./images/code.png" alt="" class="fl">
+				<div class="fl">
+					<a href="###"><img src="./images/android_down.png" alt=""></a>
+					<a href="###"><img src="./images/ios_down.png" alt=""></a>
+				</div>
+				<img src="./images/driver.png" alt="">
+			</div>
+			</div>
 	</div>
 </body>
 </html>
 <script src="js/jquery-1.9.0.min.js"></script>
+<script src="js/pageSwitch.js"></script>
 <script>
 $(function(){
 	$('.slide .slide_min a').hover(function(){
@@ -101,6 +101,26 @@ $(function(){
 	$('.gotop').click(function(){
 		$(window).scrollTop(0)
 	})
+	var w = $(window).width()
+	var h1 = w/2200 * 809
+	var h2 = w/2200 * 853
+	var h3 = w/2200 * 1516
+	$('.sectionOne').height(h1)
+	$('.sectionTwo').height(h2)
+	$('.sectionThree').height(h3)
+	$('.sectionImg_wrapper').css('margin-top', h1 - 200)
+	pageSwitch('wrapper', {
+      duration: 800,
+      direction: 1,
+      start: 0,
+      loop: false,
+      ease: 'ease',
+      transition: 'scroll',
+      mouse: true,
+      mousewheel:true,
+      autoplay: false,
+      interval: 3000
+    });
 })
 	
 </script>

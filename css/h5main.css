@@ -131,3 +131,40 @@ img{display:block;}
 .new-tips-content a.zhuangbei {  right: 0; top: 62.3%; }
 .new-tips-content a.xuanche {  left: 0; top: 84.9%; }
 .new-tips-content a.zhenxing {  right: 0; top: 84.9%; }
+
+.zhuanti #page1 { background-image: url(../images/h5_zt_bg1.png); }
+.zhuanti #page2 { background-image: url(../images/h5_zt_bg2.png); }
+.zhuanti #page3{background: #301d15}
+.zhuanti .header-nav { width: 222px; height: 27px; position: absolute; right: 5px; top: 0px; background: url(../images/h5_zt_nav.jpg) no-repeat; background-size: 222px 27px; -webkit-background-size: 222px 27px; }
+.zhuanti .header-nav li:nth-child(1) { width: 33%; }
+.zhuanti .header-nav li:nth-child(2) { width: 25%; }
+.zhuanti .header-nav li:nth-child(3) { width: 20%; }
+.zhuanti .header-nav li:nth-child(4) { width: 22%; }
+.zhuanti-pagetitle { position: absolute; width: 60.5%; left: 50%; margin-left: -30.2%; top: 46.9%; }
+.zhuanti-page1bottom { position: absolute; top: 55.7%; left: 0; }
+.zhuanti .zt_logo {margin-top: 55%}
+.zhuanti .zt_logo img.left{float: left; margin-left: 10px; width: 40%}
+.zhuanti .zt_logo img.right{float: right; margin-right: 10px; width: 40%; margin-top: 7px}
+.zhuanti img.text{width: 50%; margin: 0 auto;}
+.zhuanti ul.high {margin: 13px; }
+.zhuanti ul.high li {float: left; width: 32%; margin-right: 2%}
+.zhuanti ul.high li:last-child{margin-right: 0}
+.zhuanti ul.high li img{width: 100%}
+.fl{float: left;}
+.zhuanti .code_wrapper{width: 80%; margin: 0 auto; position: absolute; bottom: 20px; left: 0; right: 0}
+.zhuanti .code_wrapper img{width: 25%;}
+.zhuanti .code_wrapper div{width: 50%; margin-top: -5px}
+.zhuanti .code_wrapper div img{width: 100%}
+.zhuanti .slide {margin: 15px}
+.zhuanti .slide img{border: 2px solid #754a38}
+.zhuanti .slide .big{width: 100%;margin-bottom: 10px}
+.zhuanti .slide .slide_min a{width: 32%; margin-right: 2%; float: left;}
+.zhuanti .slide .slide_min a img{width: 100%; }
+.zhuanti .slide .slide_min a:last-child{margin-right: 0}
+
+.zhuanti ul.ad {margin: 20px 0px}
+.zhuanti ul.ad li{width: 100%; background: #691f11; height: 90px; margin-bottom: 20px}
+.zhuanti .footer {margin: 30px 15px}
+.zhuanti .footer img {width: 40%; margin: 0 auto}
+.zhuanti .footer .foot {width: 100%; margin: 0 auto; margin-top: 20px}
+.box2-page3 { padding-top: 0px; }
