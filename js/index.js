@@ -57,6 +57,13 @@ var Index = {
       var index = $(this).index();
       tankSwitch.slide(index);
     });
+    // 期待
+    $('#indexLibao').on('click', function() {
+      $('.index-qidai').css('display', 'block');
+      setTimeout(function() {
+        $('.index-qidai').css('display', 'none');
+      }, 3000)
+    });
     //介绍轮播
     $('.intro1').on('click', function() {
       $('#introSwitch1').animate({left: '0px'});

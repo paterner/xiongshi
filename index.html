@@ -5,10 +5,11 @@
 	<title>陆战雄狮</title>
 	<link rel="stylesheet" href="css/base.css">
 	<link rel="stylesheet" href="css/main.css">
+<script src="Scripts/swfobject_modified.js" type="text/javascript"></script>
 </head>
 <body class="index">
 	<div class="index-header">
-		<div class="wrapper">
+		<div class="wrapper"> 
 			<img src="images/index_header_logo.png" class="header-logo" alt="">
 			<ul class="header-nav clearfix">
 				<li>
@@ -18,13 +19,13 @@
 					</a>
 				</li>
 				<li>
-					<a href="news.html" target="_blank">
+					<a href="#contentTank">
 						<h4>车库</h4>
 						<p>GARAGE</p>
 					</a>
 				</li>
 				<li>
-					<a href="news.html" target="_blank">
+					<a href="#contentIntro">
 						<h4>游戏特色</h4>
 						<p>FEATURES</p>
 					</a>
@@ -35,24 +36,52 @@
 						<p>RAIDERS</p>
 					</a>
 				</li>
-				<li>
-					<a href="tips.html" target="_blank">
+				<li id="indexLibao">
+					<a href="javascript:;">
 						<h4>领取礼包</h4>
 						<p>PACKS</p>
 					</a>
 				</li>
 			</ul>
+			<img src="images/index_qidai.png" alt="" class="index-qidai">
 		</div>
 	</div>
 	<div class="wrapper index-wrapper">
-		<img src="images/index_title.png" alt="" class="content-logo">
+		<div class="m_flash">
+       	  <object id="FlashID" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="1200" height="640">
+        	  <param name="movie" value="images/index.swf">
+        	  <param name="quality" value="high">
+              <param name="WMode" value="Transparent">
+        	  <param name="wmode" value="Transparent" value="opaque">
+        	  <param name="swfversion" value="6.0.65.0">
+        	  <!-- 此 param 标签提示使用 Flash Player 6.0 r65 和更高版本的用户下载最新版本的 Flash Player。如果您不想让用户看到该提示，请将其删除。 -->
+        	  <param name="expressinstall" value="Scripts/expressInstall.swf">
+        	  <!-- 下一个对象标签用于非 IE 浏览器。所以使用 IECC 将其从 IE 隐藏。 -->
+        	  <!--[if !IE]>-->
+        	  <object type="application/x-shockwave-flash" data="images/index.swf" width="1200" height="640">
+        	    <!--<![endif]-->
+        	    <param name="quality" value="high">
+        	    <param name="WMode" value="Transparent"> 
+        	  <param name="wmode" value="Transparent" value="opaque">
+        	    <param name="swfversion" value="6.0.65.0">
+        	    <param name="expressinstall" value="Scripts/expressInstall.swf">
+        	    <!-- 浏览器将以下替代内容显示给使用 Flash Player 6.0 和更低版本的用户。 -->
+        	    <div>
+        	      <h4>此页面上的内容需要较新版本的 Adobe Flash Player。</h4>
+        	      <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="获取 Adobe Flash Player" width="112" height="33" /></a></p>
+      	      </div>
+        	    <!--[if !IE]>-->
+      	    </object>
+        	  <!--<![endif]-->
+      	  </object>
+        </div>
 		<img src="images/index_top_light.png" alt="" class="content-light">
 		<div class="index-content">
 			<div class="index-content-box">
 				<img src="images/index_content_code2.png" alt="" class="index-content-code">
 				<div class="index-content-btn">
-					<a href="###" class="btn-link android-btn"></a>
-					<a href="###" class="btn-link ios-btn"></a>
+					<a href="#" class="btn-link android-btn"></a>
+					<a href="#" class="btn-link ios-btn"></a>
 				</div>
 				<div class="index-content-video"><i class="play-btn"></i></div>
 			</div>
@@ -85,23 +114,23 @@
 						</div>
 						<ul class="news-list mt5">
 							<li>
-								<p><a href="###" class="list-link">【综合】8月18日不限号测试全员【综合】8月18日不限号测试全员【综合】8月18日不限号测试全员</a></p>
+								<p><a href="#" class="list-link">【综合】8月18日不限号测试全员【综合】8月18日不限号测试全员【综合】8月18日不限号测试全员</a></p>
 								<span class="list-time">08/13</span>
 							</li>
 							<li>
-								<p><a href="###" class="list-link">【综合】8月18日不限号测试全员</a></p>
+								<p><a href="#" class="list-link">【综合】8月18日不限号测试全员</a></p>
 								<span class="list-time">08/13</span>
 							</li>
 							<li>
-								<p><a href="###" class="list-link">【综合】8月18日不限号测试全员</a></p>
+								<p><a href="#" class="list-link">【综合】8月18日不限号测试全员</a></p>
 								<span class="list-time">08/13</span>
 							</li>
 							<li>
-								<p><a href="###" class="list-link">【综合】8月18日不限号测试全员</a></p>
+								<p><a href="#" class="list-link">【综合】8月18日不限号测试全员</a></p>
 								<span class="list-time">08/13</span>
 							</li>
 							<li>
-								<p><a href="###" class="list-link">【综合】8月18日不限号测试全员</a></p>
+								<p><a href="#" class="list-link">【综合】8月18日不限号测试全员</a></p>
 								<span class="list-time">08/13</span>
 							</li>
 						</ul>
@@ -113,23 +142,23 @@
 						</div>
 						<ul class="news-list">
 							<li>
-								<p><a href="###" class="list-link">【公告】8月18日不限号测试全员</a></p>
+								<p><a href="#" class="list-link">【公告】8月18日不限号测试全员</a></p>
 								<span class="list-time">08/13</span>
 							</li>
 							<li>
-								<p><a href="###" class="list-link">【公告】8月18日不限号测试全员</a></p>
+								<p><a href="#" class="list-link">【公告】8月18日不限号测试全员</a></p>
 								<span class="list-time">08/13</span>
 							</li>
 							<li>
-								<p><a href="###" class="list-link">【公告】8月18日不限号测试全员</a></p>
+								<p><a href="#" class="list-link">【公告】8月18日不限号测试全员</a></p>
 								<span class="list-time">08/13</span>
 							</li>
 							<li>
-								<p><a href="###" class="list-link">【公告】8月18日不限号测试全员</a></p>
+								<p><a href="#" class="list-link">【公告】8月18日不限号测试全员</a></p>
 								<span class="list-time">08/13</span>
 							</li>
 							<li>
-								<p><a href="###" class="list-link">【公告】8月18日不限号测试全员</a></p>
+								<p><a href="#" class="list-link">【公告】8月18日不限号测试全员</a></p>
 								<span class="list-time">08/13</span>
 							</li>
 						</ul>
@@ -141,23 +170,23 @@
 						</div>
 						<ul class="news-list">
 							<li>
-								<p><a href="###" class="list-link">【新闻】8月18日不限号测试全员</a></p>
+								<p><a href="#" class="list-link">【新闻】8月18日不限号测试全员</a></p>
 								<span class="list-time">08/13</span>
 							</li>
 							<li>
-								<p><a href="###" class="list-link">【新闻】8月18日不限号测试全员</a></p>
+								<p><a href="#" class="list-link">【新闻】8月18日不限号测试全员</a></p>
 								<span class="list-time">08/13</span>
 							</li>
 							<li>
-								<p><a href="###" class="list-link">【新闻】8月18日不限号测试全员</a></p>
+								<p><a href="#" class="list-link">【新闻】8月18日不限号测试全员</a></p>
 								<span class="list-time">08/13</span>
 							</li>
 							<li>
-								<p><a href="###" class="list-link">【新闻】8月18日不限号测试全员</a></p>
+								<p><a href="#" class="list-link">【新闻】8月18日不限号测试全员</a></p>
 								<span class="list-time">08/13</span>
 							</li>
 							<li>
-								<p><a href="###" class="list-link">【新闻】8月18日不限号测试全员</a></p>
+								<p><a href="#" class="list-link">【新闻】8月18日不限号测试全员</a></p>
 								<span class="list-time">08/13</span>
 							</li>
 						</ul>
@@ -169,23 +198,23 @@
 						</div>
 						<ul class="news-list">
 							<li>
-								<p><a href="###" class="list-link">【活动】8月18日不限号测试全员</a></p>
+								<p><a href="#" class="list-link">【活动】8月18日不限号测试全员</a></p>
 								<span class="list-time">08/13</span>
 							</li>
 							<li>
-								<p><a href="###" class="list-link">【活动】8月18日不限号测试全员</a></p>
+								<p><a href="#" class="list-link">【活动】8月18日不限号测试全员</a></p>
 								<span class="list-time">08/13</span>
 							</li>
 							<li>
-								<p><a href="###" class="list-link">【活动】8月18日不限号测试全员</a></p>
+								<p><a href="#" class="list-link">【活动】8月18日不限号测试全员</a></p>
 								<span class="list-time">08/13</span>
 							</li>
 							<li>
-								<p><a href="###" class="list-link">【活动】8月18日不限号测试全员</a></p>
+								<p><a href="#" class="list-link">【活动】8月18日不限号测试全员</a></p>
 								<span class="list-time">08/13</span>
 							</li>
 							<li>
-								<p><a href="###" class="list-link">【活动】8月18日不限号测试全员</a></p>
+								<p><a href="#" class="list-link">【活动】8月18日不限号测试全员</a></p>
 								<span class="list-time">08/13</span>
 							</li>
 						</ul>
@@ -193,7 +222,7 @@
 				</div>
 			</div>
 			<div class="index-content-box mt40">
-				<div class="content-tank">
+				<div class="content-tank" id="contentTank">
 					<div class="tank-img">
 						<div class="tank-img-box">
 							<img src="images/tank-img1.jpg" alt="">
@@ -224,17 +253,17 @@
 					</div>
 				</div>
 				<div class="content-teach">
-					<a href="###" class="content-teach-xinshou"></a>
-					<a href="###" class="content-teach-gaoshou"></a>
+					<a href="#" class="content-teach-xinshou"></a>
+					<a href="#" class="content-teach-gaoshou"></a>
 				</div>
 			</div>
 			<div class="index-content-box mt40">
 				<div class="content-so">
-					<a href="###" class="content-so-qq"></a>
-					<a href="###" class="content-so-baidu"></a>
-					<a href="###" class="content-so-weixin"></a>
+					<a href="#" class="content-so-qq"></a>
+					<a href="#" class="content-so-baidu"></a>
+					<a href="#" class="content-so-weixin"></a>
 				</div>
-				<div class="content-intro">
+				<div class="content-intro" id="contentIntro">
 					<ul class="intro-switch" id="introSwitch">
 						<li id="introSwitch1">
 							<img src="images/index_intro_switch1.jpg" alt="">
@@ -297,6 +326,9 @@
 			<embed id="bcloud" src="http://yuntv.letv.com/bcloud.swf" allowfullscreen="true" quality="high" width="800" height="500" align="middle" allowscriptaccess="always" flashvars="uu=661c07e19e&amp;vu=8542b9a489&amp;auto_play=0&amp;gpcflag=1&amp;width=640&amp;height=360" type="application/x-shockwave-flash">
 		</div>
 	</div>
+<script type="text/javascript">
+swfobject.registerObject("FlashID");
+    </script>
 </body>
 <script src="js/jquery-1.9.0.min.js"></script>
 <script src="js/pageSwitch.js"></script>
